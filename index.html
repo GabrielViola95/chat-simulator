@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Chat Real-time</title>
+</head>
+<body>
+    
+    <div class="general__container">
+    <!-- celular 1 -->
+        <div class="chats__container" id="celular1">
+            
+            <div class="name__box">
+                <h2 contentEditable="true" id="name">Name</h2>
+                <button id="btn-color" class="btn-color"></button>
+            </div>
+            
+            <div class="box__chats" id="box__chats">
+                
+                <!-- CHATS DE PRUEBA -->
+                
+                <!-- <div class="chat">
+                <p>Hola guacho</p>
+            </div>
+            
+            <div class="chat__sw">
+                <p>Hola ¿qué onda?</p>
+            </div> -->
+            
+            
+        </div>
+        <div class="chat__send-message" id="chat__send-message">
+            <input type="text" placeholder="Escribe aquí tu chat..." class="input-text" id="input-text">
+            <button id="btn" class="btn">Enviar</button>
+        </div>
+    </div>
+    <!-- celular 2 -->
+    <div class="chats__container2">
+        <div class="name__box2">
+            <h2 contentEditable="true" id="name2">Name</h2>
+            <button id="btn-color2" class="btn-color"></button>
+        </div>
+        <div class="box__chats" id="box__chats2">
+            
+            <!-- CHATS DE PRUEBA -->
+            
+            <!-- <div class="chat">
+                <p>Hola guacho</p>
+            </div>
+            
+            <div class="chat__sw">
+                <p>Hola ¿qué onda?</p>
+            </div> -->
+            
+            
+        </div>
+        <div class="chat__send-message" id="chat__send-message2">
+            <input maxlength="40" type="text" placeholder="Escribe aquí tu chat..." class="input-text" id="input-text2">
+            <button id="btn2" class="btn">Enviar</button>
+        </div>
+    </div>
+</div>
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
